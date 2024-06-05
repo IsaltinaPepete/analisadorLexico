@@ -18,45 +18,34 @@ public class Token {
         Soma,
         Incremento,
         Subtracao,
-        // Decremento("--"),
-        // Multiplicacao("*"),
-        // Exponenciacao("^"),
-        // Divisao("/"),
-        // Modulo("%"),
-        // Atribuicao("="),
+        Decremento,
+        Multiplicacao,
+        Exponenciacao,
+        Divisao,
+        Modulo,
+        Atribuicao,
         and,
         or,
         no,
-        // Diferente("!="),
-        // Menor("<"),
-        // Menor_Igual("<="),
-        // Maior(">"),
-        // Maior_Igual(">="),
-        // Igual("=="),
-        // Pc_Abre("("),
-        // Pc_Fecha(")"),
-        // Pr_Abre("["),
-        // Pr_Fecha("]"),
-        // Ch_Abre("{"),
-        // Ch_Fecha("}"),
-        // Ponto("."),
-        // Virgula(","),
-        // Ponto_Virgula(";"),
+        Diferente,
+        Menor,
+        Menor_Igual,
+        Maior,
+        Maior_Igual,
+        Igual,        
+        Pc_Abre,
+        Pc_Fecha,
+        Pr_Abre,
+        Pr_Fecha,
+        Ch_Abre,
+        Ch_Fecha,
+        Ponto,
+        Virgula,
+        Ponto_Virgula,
         ERROR,
         IF,
         ELSE;
 
-        // T() {
-        //     this.symbol = null;
-        // }
-        // private final String symbol;
-        // T(String symbol) {
-        //     this.symbol = symbol;
-        // }
-    
-        // public String getSymbol() {
-        //     return symbol;
-        // }
     }
 
     public T type;
@@ -76,10 +65,7 @@ public class Token {
         this.val = val;
         this.line = line;
         this.col = col;
-    }
-
-
-   
+    }  
 
 }
 
